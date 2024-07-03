@@ -1,0 +1,12 @@
+name: Testing workflow
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greetings
+        run: echo "Hello,good afternoon"
+      - name: Print Bye
+        run: echo "Done for the day"
+
+
